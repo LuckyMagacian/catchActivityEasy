@@ -256,7 +256,6 @@ public class ActivityServiceImpl implements ActivityService{
         request.setAppsecret(ConfigManager.get("appsecret"));
         request.setNotify_url(ConfigManager.get("notifyUrl"));
         request.setNumber(1);
-        request.sign();
         String responseStr=request.getRequest();
         LogFactory.info(this, "测试生产响应"+responseStr);
         return responseStr;

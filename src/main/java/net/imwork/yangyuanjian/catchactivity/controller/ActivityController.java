@@ -35,7 +35,7 @@ public class ActivityController {
         res.setContentType("text/json;charset=utf-8");
         return service.notify(req,res);
     }
-    @RequestMapping(value = "/notifyTest",produces = "application/json;charset=utf-8")
+    @RequestMapping(Mvalue = "/notifyTest",produces = "application/json;charset=utf-8")
     @ResponseBody
     public String testOnly(){
        return ((ActivityServiceImpl) service).notifyTest();

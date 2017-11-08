@@ -89,8 +89,7 @@ public class ApiRequest {
     }
 
     private String toGetParam(){
-        if(this.sign==null)
-            sign();
+        sign();
         Field[] fields=ApiRequest.class.getDeclaredFields();
         List<Field> list= Arrays.asList(fields);
         Map<String,Object> map=new HashMap<>();
