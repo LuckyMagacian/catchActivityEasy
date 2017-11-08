@@ -62,6 +62,7 @@ public class ExchangeRecord extends Model<ExchangeRecord>{
     @TableField("activity_record_id")
     private Long activityRecordId;
 
+
     @Override
     public String toString() {
         return "ExchangeRecord{" +

@@ -3,6 +3,7 @@ package net.imwork.yangyuanjian.catchactivity.impl.entity;
 import com.baomidou.mybatisplus.toolkit.IdWorker;
 import net.imwork.yangyuanjian.catchactivity.impl.assist.EncryUtil;
 import net.imwork.yangyuanjian.catchactivity.impl.assist.HttpUtil;
+import net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory;
 import org.omg.CORBA.OBJ_ADAPTER;
 
 import java.lang.reflect.Field;
@@ -46,7 +47,7 @@ public class ApiRequest {
     /**32 位小写签名*/
     private String sign;
 
-    public ApiRequest(String commodity,String phone){
+    public ApiRequest(String phone,String commodity){
         this(null,null,commodity,null,phone,null,null,null,null);
     }
 
@@ -112,6 +113,7 @@ public class ApiRequest {
                 builder.append(e+"="+map.get(e)+"&");
         });
         builder.replace(builder.length()-1,builder.length(),"");
+        LogFactory.info(this,"兑换请求参数:"+builder);
         return builder.toString();
     }
 
@@ -138,6 +140,7 @@ public class ApiRequest {
         StringBuilder builder=new StringBuilder();
         keys.stream().forEach(e->builder.append(e+"="+map.get(e)+"&"));
         builder.replace(builder.length()-1,builder.length(),"");
+        LogFactory.info(this,"签名参数:"+builder);
         String sign=EncryUtil.md5LowerCase(builder.toString(),"utf-8");
         this.sign=sign;
         return sign;
