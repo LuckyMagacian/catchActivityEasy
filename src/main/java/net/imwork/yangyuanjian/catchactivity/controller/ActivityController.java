@@ -24,6 +24,10 @@ public class ActivityController {
     @RequestMapping(value = "/enjoy",produces = "application/json;charset=utf-8")
     @ResponseBody
     public String enjoyActivity(HttpServletRequest req, HttpServletResponse res){
+        res.setHeader("Access-Control-Allow-Methods", "POST, PUT, GET, OPTIONS, DELETE");
+        res.setHeader("Access-Control-Max-Age", "3600"); //设置过期时间
+        res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, client_id, uuid, Authorization");
+        res.setHeader("Access-Control-Allow-Origin", "*");
         res.setCharacterEncoding("utf-8");
         res.setContentType("text/json;charset=utf-8");
         return service.addActivityRecord(req,res);
@@ -31,11 +35,15 @@ public class ActivityController {
     @RequestMapping(value = "/notify",produces = "application/json;charset=utf-8")
     @ResponseBody
     public String notify(HttpServletRequest req,HttpServletResponse res){
+        res.setHeader("Access-Control-Allow-Methods", "POST, PUT, GET, OPTIONS, DELETE");
+        res.setHeader("Access-Control-Max-Age", "3600"); //设置过期时间
+        res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, client_id, uuid, Authorization");
+        res.setHeader("Access-Control-Allow-Origin", "*");
         res.setCharacterEncoding("utf-8");
         res.setContentType("text/json;charset=utf-8");
         return service.notify(req,res);
     }
-    @RequestMapping(Mvalue = "/notifyTest",produces = "application/json;charset=utf-8")
+    @RequestMapping(value = "/notifyTest",produces = "application/json;charset=utf-8")
     @ResponseBody
     public String testOnly(){
        return ((ActivityServiceImpl) service).notifyTest();

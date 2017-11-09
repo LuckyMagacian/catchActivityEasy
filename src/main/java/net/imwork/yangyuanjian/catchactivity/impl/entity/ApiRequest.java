@@ -112,7 +112,7 @@ public class ApiRequest {
                 builder.append(e+"="+map.get(e)+"&");
         });
         builder.replace(builder.length()-1,builder.length(),"");
-        LogFactory.info(this,"兑换请求参数:"+builder);
+        LogFactory.debug(this,"兑换请求参数:"+builder);
         return builder.toString();
     }
 
@@ -139,7 +139,7 @@ public class ApiRequest {
         StringBuilder builder=new StringBuilder();
         keys.stream().forEach(e->builder.append(e+"="+map.get(e)+"&"));
         builder.replace(builder.length()-1,builder.length(),"");
-        LogFactory.info(this,"签名参数:"+builder);
+        LogFactory.debug(this,"签名参数:"+builder);
         String sign=EncryUtil.md5LowerCase(builder.toString(),"utf-8");
         this.sign=sign;
         return sign;

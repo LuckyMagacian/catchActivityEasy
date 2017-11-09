@@ -1,0 +1,124 @@
+2017-11-08 14:35:03,204 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 14:35:03,228 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <尝试添加活动记录,mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:35:03,230 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]运营商为[移动]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:35:03,426 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]活动次数[1]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:35:03,426 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]奖励[Gift{giftId='cc00176003', name='流量充值70M（全国-移动）'}]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:35:03,567 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]本次活动记录[ActivityRecord{recordId=928148845192929281, phone='15068610940', flows='cc00176003', mac='10086', time='20171108143503', remark='流量充值70M（全国-移动）', exchanged='1'}]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:35:03,568 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]添加活动记录成功,前往兑换!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:35:03,592 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动记录[928148845192929281]尝试进行兑换!ActivityRecord{recordId=928148845192929281, phone='15068610940', flows='cc00176003', mac='10086', time='20171108143503', remark='流量充值70M（全国-移动）', exchanged='1'}>
+2017-11-08 14:35:03,604 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=15068610940&number=1&phone=cc00176003&sign=d99c4db95d2d37471d1a8b9504a34eca&timestamp=1510122903&trade_id=928148845490724866>
+2017-11-08 14:35:04,526 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动记录[928148845192929281]美洋响应[{"code":10001,"errmsg":"错误的请求KEY"}]ActivityRecord{recordId=928148845192929281, phone='15068610940', flows='cc00176003', mac='10086', time='20171108143503', remark='流量充值70M（全国-移动）', exchanged='1'}>
+2017-11-08 14:35:04,799 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动记录[928148845192929281]兑换失败!ActivityRecord{recordId=928148845192929281, phone='15068610940', flows='cc00176003', mac='10086', time='20171108143503', remark='流量充值70M（全国-移动）', exchanged='1'}>
+2017-11-08 14:35:04,863 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 14:35:00 CST 2017]; root of context hierarchy>
+2017-11-08 14:41:17,995 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 14:41:17,996 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 14:41:18,014 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 14:41:15 CST 2017]; root of context hierarchy>
+2017-11-08 14:43:54,727 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 14:43:54,728 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 14:43:54,729 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 14:43:54,746 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <尝试添加活动记录,mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:43:54,746 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]运营商为[移动]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:43:54,956 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]活动次数[2]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:43:54,956 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]奖励[Gift{giftId='cc00176003', name='流量充值70M（全国-移动）'}]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:43:55,096 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]本次活动记录[ActivityRecord{recordId=928151074553552898, phone='15068610940', flows='cc00176003', mac='10086', time='20171108144355', remark='流量充值70M（全国-移动）', exchanged='1'}]!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:43:55,096 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动手机号[15068610940]添加活动记录成功,前往兑换!mac[10086],phone[15068610940],flow[50]>
+2017-11-08 14:43:55,127 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动记录[928151074553552898]尝试进行兑换!ActivityRecord{recordId=928151074553552898, phone='15068610940', flows='cc00176003', mac='10086', time='20171108144355', remark='流量充值70M（全国-移动）', exchanged='1'}>
+2017-11-08 14:43:55,139 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176003&key=meiyangtest&number=1&phone=15068610940&sign=ee76ada0c14399d268781da2d967764d&timestamp=1510123435&trade_id=928151074910068737>
+2017-11-08 14:43:55,886 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动记录[928151074553552898]美洋响应[{"order_num":"123456(test_order_num)","code":"0"}]ActivityRecord{recordId=928151074553552898, phone='15068610940', flows='cc00176003', mac='10086', time='20171108144355', remark='流量充值70M（全国-移动）', exchanged='1'}>
+2017-11-08 14:43:56,242 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <活动记录[928151074553552898]更新兑换标记,新增兑换记录[ExchangeRecord{recordId=928151079125344257, giftId='cc00176003', giftName='流量充值70M（全国-移动）', phone='15068610940', mac='10086', recordTime='20171108144356', times=null, status='0000', retryTimes=0, orderNum='123456(test_order_num)', code='null', errmsg='null', activityRecordId=928151074553552898}]ActivityRecord{recordId=928151074553552898, phone='15068610940', flows='cc00176003', mac='10086', time='20171108144355', remark='流量充值70M（全国-移动）', exchanged='0'}>
+2017-11-08 14:43:56,298 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 14:43:52 CST 2017]; root of context hierarchy>
+2017-11-08 16:14:33,424 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:14:33,425 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:14:33,426 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:14:33,453 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=s00044&phone=15068610940&sign=817f7e28c014a87d5a0c0f2f098f474a>
+2017-11-08 16:14:34,206 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":10001,"errmsg":"错误的请求KEY"}>
+2017-11-08 16:14:34,208 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:14:30 CST 2017]; root of context hierarchy>
+2017-11-08 16:18:03,991 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:18:03,992 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:18:03,992 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:18:04,006 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=s00044&phone=15068610940&sign=817f7e28c014a87d5a0c0f2f098f474a>
+2017-11-08 16:18:04,707 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":10001,"errmsg":"错误的请求KEY"}>
+2017-11-08 16:18:04,708 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:18:01 CST 2017]; root of context hierarchy>
+2017-11-08 16:20:46,414 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:20:46,415 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:20:46,415 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:20:46,521 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=s00044&number=1&phone=15068610940&sign=0c06523537f334f7f4a57b4df3a5c5c7&timestamp=1510129246&trade_id=928175449604386817>
+2017-11-08 16:20:47,234 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":10001,"errmsg":"错误的请求KEY"}>
+2017-11-08 16:20:47,237 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:20:43 CST 2017]; root of context hierarchy>
+2017-11-08 16:21:39,125 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:21:39,128 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:21:39,128 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:21:39,253 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=ylds&commodity=cc00176002&key=s00044&number=1&phone=15068610940&timestamp=1510129299&trade_id=928175670791106561>
+2017-11-08 16:21:39,260 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=s00044&number=1&phone=15068610940&sign=a5c779ad18e745ba84363b96ebade09e&timestamp=1510129299&trade_id=928175670791106561>
+2017-11-08 16:21:39,936 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":10001,"errmsg":"错误的请求KEY"}>
+2017-11-08 16:21:39,937 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:21:36 CST 2017]; root of context hierarchy>
+2017-11-08 16:23:12,002 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:23:12,004 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:23:12,004 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:23:12,114 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=ylds&commodity=cc00176002&key=s00044&number=1&phone=15068610940&timestamp=1510129392&trade_id=928176060261593090>
+2017-11-08 16:23:12,116 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=s00044&number=1&phone=15068610940&sign=afb2110071c88f054e0a39a671a390ce&timestamp=1510129392&trade_id=928176060261593090>
+2017-11-08 16:23:12,815 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":10001,"errmsg":"错误的请求KEY"}>
+2017-11-08 16:23:12,817 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:23:08 CST 2017]; root of context hierarchy>
+2017-11-08 16:39:43,611 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:39:43,612 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:39:43,613 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:39:43,735 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=ylds&commodity=cc00176002&key=s00044&number=1&phone=15068610940&timestamp=1510130383&trade_id=928180219387854850>
+2017-11-08 16:39:43,737 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=s00044&number=1&phone=15068610940&sign=bbe2a2681aca0bddd117d018127a2e83&timestamp=1510130383&trade_id=928180219387854850>
+2017-11-08 16:39:44,439 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":10001,"errmsg":"错误的请求KEY"}>
+2017-11-08 16:39:44,441 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:39:40 CST 2017]; root of context hierarchy>
+2017-11-08 16:40:19,031 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:40:19,036 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:40:19,036 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:40:19,177 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=yldssecret&commodity=cc00176002&key=yldskey&number=1&phone=15068610940&timestamp=1510130419&trade_id=928180368059146242>
+2017-11-08 16:40:19,179 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:key=yldskey&number=1&phone=15068610940&sign=d3b86cec74efa6d8523994adde64f04a&timestamp=1510130419&trade_id=928180368059146242>
+2017-11-08 16:40:19,822 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":10003,"errmsg":"签名信息与上传信息不符"}>
+2017-11-08 16:40:19,824 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:40:16 CST 2017]; root of context hierarchy>
+2017-11-08 16:41:34,706 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:41:34,708 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:41:34,708 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:41:34,857 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=yldssecret&commodity=cc00176002&key=yldskey&number=1&phone=15068610940&timestamp=1510130494&trade_id=928180685513445377>
+2017-11-08 16:41:34,859 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=yldskey&number=1&phone=15068610940&sign=da82e6fd3cd8b7886e8809db5f8f5f91&timestamp=1510130494&trade_id=928180685513445377>
+2017-11-08 16:41:35,506 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应[10008,{"code":10008,"errmsg":"缺少上传参数，请核对上传参数"}]>
+2017-11-08 16:41:35,509 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:41:32 CST 2017]; root of context hierarchy>
+2017-11-08 16:42:13,282 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:42:13,283 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:42:13,283 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:42:13,401 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=yldssecret&commodity=cc00176002&key=yldskey&number=1&phone=15068610940&timestamp=1510130533&trade_id=928180847145148418>
+2017-11-08 16:42:13,405 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=yldskey&number=1&phone=15068610940&sign=acc07be15cca76c468155ee057156920&timestamp=1510130533&trade_id=928180847145148418>
+2017-11-08 16:42:14,061 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应[10008,{"code":10008,"errmsg":"缺少上传参数，请核对上传参数"}]>
+2017-11-08 16:42:14,063 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:42:10 CST 2017]; root of context hierarchy>
+2017-11-08 16:43:31,462 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:43:31,465 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:43:31,465 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:43:31,644 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=yldssecret&commodity=cc00176002&key=yldskey&number=1&phone=15068610940&timestamp=1510130611&trade_id=928181175349518337>
+2017-11-08 16:43:31,651 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=yldskey&number=1&phone=15068610940&sign=5fc7f9a9b2e06c4e643a289f6c5c2702&timestamp=1510130611&trade_id=928181175349518337>
+2017-11-08 16:43:32,304 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应[10008,{"code":10008,"errmsg":"缺少上传参数，请核对上传参数"}]>
+2017-11-08 16:43:32,306 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:43:28 CST 2017]; root of context hierarchy>
+2017-11-08 16:43:56,597 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:43:56,599 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:43:56,599 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:43:56,761 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=yldssecret&commodity=cc00176002&key=yldskey&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&timestamp=1510130636&trade_id=928181280681046017>
+2017-11-08 16:43:56,763 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=yldskey&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&sign=0b06a553fb543a99c328e89fff7fec7f&timestamp=1510130636&trade_id=928181280681046017>
+2017-11-08 16:44:02,722 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":-1,"errmsg":"系统繁忙"}>
+2017-11-08 16:44:02,725 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:43:53 CST 2017]; root of context hierarchy>
+2017-11-08 16:45:19,282 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:45:19,284 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:45:19,284 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:45:19,422 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=meiyangtest&commodity=cc00176002&key=meiyangtest&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&timestamp=1510130719&trade_id=928181627407413249>
+2017-11-08 16:45:19,424 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=meiyangtest&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&sign=c15fd4898baada7d7df2cc53d2407cc9&timestamp=1510130719&trade_id=928181627407413249>
+2017-11-08 16:45:20,086 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"order_num":"123456(test_order_num)","code":"0"}>
+2017-11-08 16:45:20,088 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:45:16 CST 2017]; root of context hierarchy>
+2017-11-08 16:45:44,886 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 16:45:44,887 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 16:45:44,888 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 16:45:44,989 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=yldssecret&commodity=cc00176002&key=yldskey&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&timestamp=1510130744&trade_id=928181734622154754>
+2017-11-08 16:45:44,991 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=yldskey&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&sign=c301c7a37458cbedc074aee8a71c7468&timestamp=1510130744&trade_id=928181734622154754>
+2017-11-08 16:45:46,320 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"code":-1,"errmsg":"系统繁忙"}>
+2017-11-08 16:45:46,322 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 16:45:41 CST 2017]; root of context hierarchy>
+2017-11-08 17:13:04,787 INFO [net.imwork.yangyuanjian.catchactivity.impl.assist.LogFactory] - <log4j初始化完成!>
+2017-11-08 17:13:04,788 INFO [java.util.Properties] - <正在加载配置文件[/C:/Users/yangyuanjian/Desktop/projects/catchActivityEasy/target/test-classes/properties/param.properties]--------------------------->
+2017-11-08 17:13:04,788 INFO [java.util.Properties] - <配置文件加载完成--------------------------->
+2017-11-08 17:13:04,891 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <签名参数:appsecret=yldssecret&commodity=cc00176002&key=yldskey&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&timestamp=1510132384&trade_id=928188612882321409>
+2017-11-08 17:13:04,893 INFO [net.imwork.yangyuanjian.catchactivity.impl.entity.ApiRequest] - <兑换请求参数:commodity=cc00176002&key=yldskey&notify_url=http://101.132.96.17:8180/catchActivityEasy/notify&number=1&phone=15068610940&sign=4662e0b5a4da01cf50b98e3743fecd1e&timestamp=1510132384&trade_id=928188612882321409>
+2017-11-08 17:13:05,607 INFO [net.imwork.yangyuanjian.catchactivity.impl.service.ActivityServiceImpl] - <测试生产响应{"order_num":"s0004420171108000003","code":"0"}>
+2017-11-08 17:13:05,609 INFO [org.springframework.context.support.GenericApplicationContext] - <Closing org.springframework.context.support.GenericApplicationContext@66a3ffec: startup date [Wed Nov 08 17:13:02 CST 2017]; root of context hierarchy>

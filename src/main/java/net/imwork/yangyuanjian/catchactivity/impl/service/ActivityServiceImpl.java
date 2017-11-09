@@ -171,9 +171,16 @@ public class ActivityServiceImpl implements ActivityService{
             }
         }else{
             //若兑换记录不为空,而活动记录标记为未兑换,按已经兑换处理,更新活动记录为已经兑换
-            record.setExchanged(ActivityRecord.HAS_EXCHANGED);
-            record.updateById();
-            LogFactory.info(this,"活动记录["+record.getRecordId()+"]已经完成了兑换但为更新兑换标记!更新兑换标记"+record);
+            if(records.size()==1){
+                ExchangeRecord exchangeRecord=records.get(0);
+                if(exchangeRecord.getStatus().equals(ExchangeRecord.STATUS_SUCCESS)||exchangeRecord.getStatus().equals(ExchangeRecord.STATUS_ARRIVE)){
+                    record.setExchanged(ActivityRecord.HAS_EXCHANGED);
+                    record.updateById();
+                    LogFactory.info(this,"活动记录["+record.getRecordId()+"]已经完成了兑换但未更新兑换标记!更新兑换标记"+record);
+                    return new RetMessage("0000","兑换奖励成功!",null).toJson();
+                }
+            }
+            LogFactory.info(this,"活动记录["+record.getRecordId()+"]兑换失败!但返回成功!"+record);
             return new RetMessage("0000","兑换奖励成功!",null).toJson();
         }
     }
@@ -204,7 +211,16 @@ public class ActivityServiceImpl implements ActivityService{
         response.setErrmsg(errmsg);
         response.insert();
         response.setNofity_time(timeSuppile.get());
+
+        List<ExchangeRecord> records=exchangeRecordDao.selectList(new EntityWrapper<ExchangeRecord>().eq("order_num",response.getOrder_num()));
+        for(ExchangeRecord each:records){
+            each.setStatus(ExchangeRecord.STATUS_ARRIVE);
+            each.updateById();
+        }
         LogFactory.info(this,"收到回调通知"+response);
+
+
+
         return "success";
     }
 
