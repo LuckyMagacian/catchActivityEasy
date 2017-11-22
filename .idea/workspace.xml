@@ -2,30 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46d1a0a0-1be9-407f-be7f-15889df6de13" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy/catchActivityEasy.war" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy/catchActivityEasy.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ActivityRecord.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ActivityRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiRequest.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ExchangeRecord.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ExchangeRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/service/ActivityServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/service/ActivityServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/ConfigManager.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/ConfigManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/EncryUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/EncryUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/HttpUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/HttpUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogAppender.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory$LogLevel.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory$LogLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/PhoneCheck.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/PhoneCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/RetMessage.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/RetMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ActivityRecordDao.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ActivityRecordDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ExchangeRecordDao.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ExchangeRecordDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/NotifyResponseDao.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/NotifyResponseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ShareRecordDao.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ShareRecordDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/Gift.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/Gift.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/NotifyResponse.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/NotifyResponse.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ShareRecord.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ShareRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/servlet/InitServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/impl/servlet/InitServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/spi/ActivityService.class" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/net/imwork/yangyuanjian/catchactivity/spi/ActivityService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/ConfigManager.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/ConfigManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/EncryUtil.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/EncryUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/HttpUtil.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/HttpUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogAppender.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogAppender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory$LogLevel.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory$LogLevel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/LogFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/PhoneCheck.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/PhoneCheck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/RetMessage.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/assist/RetMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ActivityRecordDao.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ActivityRecordDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ExchangeRecordDao.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ExchangeRecordDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ShareRecordDao.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/dao/ShareRecordDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ActivityRecord.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ActivityRecord.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiRequest.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiRequest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiResponse.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiResponse.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ExchangeRecord.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ExchangeRecord.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/Gift.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/Gift.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ShareRecord.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/entity/ShareRecord.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/service/ActivityServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/service/ActivityServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/servlet/InitServlet.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/impl/servlet/InitServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/spi/ActivityService.class" afterPath="$PROJECT_DIR$/target/classes/net/imwork/yangyuanjian/catchactivity/spi/ActivityService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/net/imwork/yangyuanjian/catchactivity/test/TestEncry.class" afterPath="$PROJECT_DIR$/target/test-classes/net/imwork/yangyuanjian/catchactivity/test/TestEncry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/net/imwork/yangyuanjian/catchactivity/test/TestSpring.class" afterPath="$PROJECT_DIR$/target/test-classes/net/imwork/yangyuanjian/catchactivity/test/TestSpring.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catchActivityEasy.iml" afterPath="$PROJECT_DIR$/catchActivityEasy.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/META-INF/maven/net.imwokr.yangyuanjian/catchActivityEasy/pom.properties" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/META-INF/maven/net.imwokr.yangyuanjian/catchActivityEasy/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/properties/jdbc.properties" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/properties/jdbc.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/properties/param.properties" afterPath="$PROJECT_DIR$/out/artifacts/catchActivityEasy_exploded/WEB-INF/classes/properties/param.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.java" afterPath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiRequest.java" afterPath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/ExchangeRecord.java" afterPath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/ExchangeRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/service/ActivityServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/service/ActivityServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/properties/param.properties" afterPath="$PROJECT_DIR$/src/main/resources/properties/param.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/jdbc.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/properties/param.properties" afterPath="$PROJECT_DIR$/src/test/resources/properties/param.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/properties/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/properties/param.properties" afterPath="$PROJECT_DIR$/target/classes/properties/param.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,16 +76,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ActivityController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <element signature="e#2397#2398#0" expanded="true" />
-                <element signature="e#2463#2464#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="36" column="63" lean-forward="false" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/dao/ShareRecordDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/imwork/yangyuanjian/catchactivity/test/TestEncry.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/Gift.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/ShareRecord.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/assist/PhoneCheck.java" />
@@ -125,6 +150,8 @@
         <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/ApiRequest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/param.properties" />
         <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/xiadong/WeixinUtilService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -200,11 +227,55 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catchActivityEasy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catchActivityEasy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: net.sf.json-lib:json-lib:jdk15:2.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="json-lib-2.3-jdk15.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="catchActivityEasy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ezmorph-1.0.6.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="catchActivityEasy" />
@@ -631,6 +702,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1328,6 +1401,8 @@
       <workItem from="1510132355809" duration="457000" />
       <workItem from="1510133462403" duration="2774000" />
       <workItem from="1510194369181" duration="101000" />
+      <workItem from="1511243793342" duration="736000" />
+      <workItem from="1511316354780" duration="820000" />
     </task>
     <servers />
   </component>
@@ -1364,11 +1439,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40196000" />
+    <option name="totallyTimeSpent" value="41752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1058" extended-state="6" />
-    <editor active="true" />
+    <frame x="-4" y="-4" width="1928" height="1058" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1384,6 +1458,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914164" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1392,7 +1467,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39270386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.282516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2889126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1400,7 +1475,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1422,22 +1496,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/impl/entity/Gift.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/properties/param.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1487,14 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1672,7 +1722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1691,7 +1740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-355">
           <caret line="141" column="25" lean-forward="false" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1699,7 +1747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1707,10 +1754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding>
-            <element signature="e#2903#2904#0" expanded="true" />
-            <element signature="e#2937#2938#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1718,7 +1761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1120">
           <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1734,18 +1776,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="92" column="29" lean-forward="false" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/xiadong/WeixinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/xiadong/WeixinUtilService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/imwork/yangyuanjian/catchactivity/controller/ActivityController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="43" column="25" lean-forward="false" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="e#2397#2398#0" expanded="true" />
-            <element signature="e#2463#2464#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="36" column="63" lean-forward="false" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -10,11 +10,8 @@ import java.util.function.Supplier;
  * Created by thunderobot on 2017/11/5.
  */
 public class ConfigManager {
-
-
-
-    private static Properties config=new Properties();
-
+ 
+	private static Properties config=new Properties();
 
     public static void init() throws IOException {
         ClassLoader loader = ConfigManager.class.getClassLoader();
