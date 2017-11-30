@@ -13,11 +13,11 @@ public class PhoneCheck {
         final String  unicomRegex="(13[0-2])|(15[5-6])|(18[5-6])|(145)|(176)";
         phone = phone.substring(0,3);
         if(phone.matches(mobileRegex))
-            return 0;
-        if(phone.matches(unionRegex))
             return 1;
-        if(phone.matches(unicomRegex))
+        if(phone.matches(unionRegex))
             return 2;
+        if(phone.matches(unicomRegex))
+            return 3;
         return null;
     }
 }

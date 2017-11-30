@@ -12,6 +12,7 @@ import java.io.Serializable;
  * 分享记录表
  * Created by thunderobot on 2017/11/7.
  */
+@Deprecated
 @TableName("share_record")
 public class ShareRecord extends Model<ShareRecord>{
     /**分享记录编号*/

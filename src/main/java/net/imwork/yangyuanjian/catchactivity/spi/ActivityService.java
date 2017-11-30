@@ -35,7 +35,7 @@ public interface ActivityService {
      * @param res
      * @return
      */
-    String nofity(HttpServletRequest req,HttpServletResponse res);
+    String notify(HttpServletRequest req,HttpServletResponse res);
     /**
      * 分享链接进入接口
      * @param req

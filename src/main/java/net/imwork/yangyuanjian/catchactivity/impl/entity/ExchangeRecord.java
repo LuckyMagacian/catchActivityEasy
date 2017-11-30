@@ -21,7 +21,8 @@ public class ExchangeRecord extends Model<ExchangeRecord>{
     public static final String STATUS_FAIL="0009";
     /**兑换状态-出错*/
     public static final String STATUS_ERROR="9999";
-
+    /**兑换状态-到账*/
+    public static final String STATUS_ARRIVE="8888";
     /**兑换记录id*/
     @TableId("record_id")
     private Long recordId;
@@ -47,10 +48,10 @@ public class ExchangeRecord extends Model<ExchangeRecord>{
     @TableField("status")
     private String status;
     /**兑换失败重试次数*/
-    @TableField("retryTimes")
+    @TableField("retry_times")
     private Integer retryTimes;
     /**成功时订单编号*/
-    @TableField("orderNum")
+    @TableField("order_num")
     private String orderNum;
     /**受理结果*/
     @TableField("code")
@@ -61,6 +62,7 @@ public class ExchangeRecord extends Model<ExchangeRecord>{
     /**对应的活动记录的id*/
     @TableField("activity_record_id")
     private Long activityRecordId;
+
 
     @Override
     public String toString() {

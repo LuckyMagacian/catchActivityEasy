@@ -17,9 +17,9 @@ public class Gift extends Model<Gift>{
     public static final Integer MAX_EXCAHNEG_TIMES=3;
 
     /**流量充值70M（全国-移动）*/
-    public static final Gift MOBILE_50=new Gift("cc00176003","流量充值70M（全国-移动）");
+    public static final Gift MOBILE_50=new Gift("cc00176013","流量充值50M（全国-移动）");
     /**流量充值150M（全国-移动）*/
-    public static final Gift MOBILE_100=new Gift("cc00176004","流量充值150M（全国-移动）");
+    public static final Gift MOBILE_100=new Gift("cc00176014","流量充值100M（全国-移动）");
     /**流量充值50M（全国-联通）*/
     public static final Gift UNICOM_50=new Gift("cc00174002","流量充值50M（全国-联通）");
     /**流量充值100M（全国-联通）*/

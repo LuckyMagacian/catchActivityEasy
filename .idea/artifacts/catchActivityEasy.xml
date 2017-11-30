@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="catchActivityEasy">
+    <output-path>$PROJECT_DIR$/out/artifacts/catchActivityEasy</output-path>
+    <root id="archive" name="catchActivityEasy.war">
+      <element id="artifact" artifact-name="catchActivityEasy:exploded" />
+    </root>
+  </artifact>
+</component>
